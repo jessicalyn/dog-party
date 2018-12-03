@@ -1,0 +1,155 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 0px;
+}
+
+header  {
+  background-color: #75e2e6;
+  height: 45px;
+}
+
+#dog-icon {
+  height: 38px;
+  margin: 5px 20px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+  overflow: hidden;
+  float: right;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline;
+  color: #000000;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+li a:hover {
+  background-color: #048eaa;
+}
+
+#splash {
+  background-image: linear-gradient(to top, transparent, 80%, dimgray), url(images/park.jpg);
+  background-size: cover;
+  background-position: 100% 66%;
+  border-top: 2px solid #048eaa;
+}
+
+#title-text {
+  color: #ffffff;
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 0px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.round-images {
+  border-radius: 50%;
+  border: 3px solid #048eaa;
+  max-width: 140px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 10px;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#name-button {
+  background-color: #75e2e6;
+  color: #000000;
+  padding: 10px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+#dog-articles {
+  margin-bottom: 50px;
+}
+
+article {
+  width: 33.3%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  vertical-align: top;
+  float: left;
+}
+
+@media screen and (max-width:600px) {
+  article {
+    width: 100%;
+  }
+}
+
+article p {
+  text-align: left;
+  height: 210px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+button, 
+footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  text-align: center;
+  border: 0;
+}
+
+footer {
+  padding: 25px 50px;
+  margin-top: 20px;
+  }
+
+.icons {
+  padding: 10px
+}
+
+.clearfix:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
